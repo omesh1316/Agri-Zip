@@ -1,0 +1,26 @@
+AI-Agri-Assistant/
+│
+├── backend/                          # Flask backend
+│   ├── app.py                        # Main Flask app
+│   ├── crop_model.pkl                # Trained ML model
+│   ├── requirements.txt              # Python dependencies
+│   ├── weather_api.py                # Module to fetch weather data
+│   ├── utils.py                      # Helper functions (e.g., water/pest logic)
+│   ├── db/                           # Database folder
+│   │   └── database.db               # SQLite DB (or Firebase logic if using that)
+│   └── static/                       # Optional (for images/files)
+│
+├── frontend/                         # React frontend
+│   ├── public/                       # Public assets (index.html, etc.)
+│   ├── src/                          # Source code
+│   │   ├── components/               # UI Components (InputForm, Results, etc.)
+│   │   ├── pages/                    # Main Pages (Home, ResultPage, etc.)
+│   │   ├── services/                 # API calls to Flask backend
+│   │   ├── App.js                    # Main React component
+│   │   └── index.js                  # Entry point
+│   ├── .env                          # Environment variables (API keys)
+│   └── package.json                  # React dependencies
+│
+├── README.md                         # Project documentation
+└── .gitignore                        # Ignore files for Git
+

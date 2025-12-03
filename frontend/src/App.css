@@ -1,0 +1,12 @@
+.fade-in {
+  animation: fadeInUp 1s cubic-bezier(0.23, 1, 0.32, 1), shadowPulse 2.5s infinite alternate;
+}
+
+@keyframes shadowPulse {
+  0% {
+    box-shadow: 0 2px 16px 0 rgba(60,60,60,0.07);
+  }
+  100% {
+    box-shadow: 0 8px 32px 0 rgba(60,60,60,0.13);
+  }
+}
